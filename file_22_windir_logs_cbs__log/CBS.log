@@ -1,0 +1,142 @@
+﻿2018-11-25 10:54:28, Info                  CBS    TI: --- Initializing Trusted Installer ---
+2018-11-25 10:54:28, Info                  CBS    TI: Last boot time: 2018-11-25 10:48:54.500
+2018-11-25 10:54:28, Info                  CBS    Starting TrustedInstaller initialization.
+2018-11-25 10:54:28, Info                  CBS    Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:4
+2018-11-25 10:54:28, Info                  CBS    Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:5
+2018-11-25 10:54:28, Info                  CBS    Lock: New lock added: WinlogonNotifyLock, level: 8, total lock:6
+2018-11-25 10:54:28, Info                  CBS    Ending TrustedInstaller initialization.
+2018-11-25 10:54:28, Info                  CBS    Starting the TrustedInstaller main loop.
+2018-11-25 10:54:28, Info                  CBS    TrustedInstaller service starts successfully.
+2018-11-25 10:54:28, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart
+2018-11-25 10:54:28, Info                  CBS    Startup processing thread terminated normally
+2018-11-25 10:54:28, Info                  CBS    TI: Startup Processing completes, release startup processing lock.
+2018-11-25 10:54:29, Info                  CBS    Starting TiWorker initialization.
+2018-11-25 10:54:29, Info                  CBS    Lock: New lock added: TiWorkerClassFactory, level: 30, total lock:2
+2018-11-25 10:54:29, Info                  CBS    Ending TiWorker initialization.
+2018-11-25 10:54:29, Info                  CBS    Starting the TiWorker main loop.
+2018-11-25 10:54:29, Info                  CBS    TiWorker starts successfully.
+2018-11-25 10:54:29, Info                  CBS    Lock: New lock added: CCbsWorker, level: 5, total lock:3
+2018-11-25 10:54:29, Info                  CBS    Universal Time is: 2018-11-25 09:54:29.333
+2018-11-25 10:54:29, Info                  CBS    Loaded Servicing Stack v10.0.17134.400 with Core: C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17134.400_none_eb2ff40c1d41442d\cbscore.dll
+2018-11-25 10:54:29, Info                  CBS    Build: 17134.1.amd64fre.rs4_release.180410-1804
+2018-11-25 10:54:29, Info                  CSI    00000001@2018/11/25:09:54:29.333 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7ffd4bf5c2b9 @0x7ffd4c2c2a06 @0x7ffd4c2ddeff @0x7ff6ca8b2c32 @0x7ff6ca8b35e8 @0x7ffd8e4b4743)
+2018-11-25 10:54:29, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:8
+2018-11-25 10:54:29, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:9
+2018-11-25 10:54:29, Info                  CBS    NonStart: Set pending store consistency check.
+2018-11-25 10:54:31, Info                  CBS    Session: 30704791_1581762407 initialized by client UpdateAgentLCU, external staging directory: (null), external registry directory: (null
+2018-11-25 10:54:31, Info                  CBS    Session status queried: Current Phase: 2, Last SuccessfulState: Complete, Completed: 1, Status: 0x0
+2018-11-25 10:54:32, Info                  CBS    Session: 30704799_1207531102 initialized by client WindowsUpdateAgent, external staging directory: (null), external registry directory: (null
+2018-11-25 10:56:33, Info                  CBS    Trusted Installer is shutting down because: SHUTDOWN_REASON_AUTOSTOP
+2018-11-25 10:56:33, Info                  CBS    TiWorker signaled for shutdown, going to exit.
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2018-11-25 10:56:33, Info                  CBS    Execution Engine Finalize
+2018-11-25 10:56:33, Info                  CBS    Execution Engine Finalize
+2018-11-25 10:56:33, Info                  CBS    Ending the TiWorker main loop.
+2018-11-25 10:56:33, Info                  CBS    Starting TiWorker finalization.
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: ManifestCacheFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2018-11-25 10:56:33, Info                  CBS    CBS Engine already deativated
+2018-11-25 10:56:33, Info                  CBS    CBS Engine already deativated
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: WcpUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: DrupUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: DpxUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: SrUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2018-11-25 10:56:33, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2018-11-25 10:56:33, Info                  CBS    Ending TiWorker finalization.
+2018-11-25 10:56:34, Info                  CBS    Ending the TrustedInstaller main loop.
+2018-11-25 10:56:34, Info                  CBS    Starting TrustedInstaller finalization.
+2018-11-25 10:56:34, Info                  CBS    Ending TrustedInstaller finalization.
+2018-11-25 11:01:41, Info                  CBS    TI: --- Initializing Trusted Installer ---
+2018-11-25 11:01:41, Info                  CBS    TI: Last boot time: 2018-11-25 10:48:54.500
+2018-11-25 11:01:41, Info                  CBS    Starting TrustedInstaller initialization.
+2018-11-25 11:01:41, Info                  CBS    Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:4
+2018-11-25 11:01:41, Info                  CBS    Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:5
+2018-11-25 11:01:41, Info                  CBS    Lock: New lock added: WinlogonNotifyLock, level: 8, total lock:6
+2018-11-25 11:01:41, Info                  CBS    Ending TrustedInstaller initialization.
+2018-11-25 11:01:41, Info                  CBS    Starting the TrustedInstaller main loop.
+2018-11-25 11:01:41, Info                  CBS    TrustedInstaller service starts successfully.
+2018-11-25 11:01:41, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart
+2018-11-25 11:01:41, Info                  CBS    WU creates the package, AppID:<<PROCESS>>: taskhostw.exe, UpdateID:{0361BC9E-5B49-4453-8BDE-45BCE6BADD62}, revision: 203
+2018-11-25 11:01:41, Info                  CBS    Startup processing thread terminated normally
+2018-11-25 11:01:41, Info                  CBS    TI: Startup Processing completes, release startup processing lock.
+2018-11-25 11:01:45, Info                  CBS    Starting TiWorker initialization.
+2018-11-25 11:01:45, Info                  CBS    Lock: New lock added: TiWorkerClassFactory, level: 30, total lock:2
+2018-11-25 11:01:45, Info                  CBS    Ending TiWorker initialization.
+2018-11-25 11:01:45, Info                  CBS    Starting the TiWorker main loop.
+2018-11-25 11:01:45, Info                  CBS    TiWorker starts successfully.
+2018-11-25 11:01:45, Info                  CBS    Lock: New lock added: CCbsWorker, level: 5, total lock:3
+2018-11-25 11:01:45, Info                  CBS    Universal Time is: 2018-11-25 10:01:45.669
+2018-11-25 11:01:45, Info                  CBS    Loaded Servicing Stack v10.0.17134.400 with Core: C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17134.400_none_eb2ff40c1d41442d\cbscore.dll
+2018-11-25 11:01:45, Info                  CBS    Build: 17134.1.amd64fre.rs4_release.180410-1804
+2018-11-25 11:01:45, Info                  CSI    00000001@2018/11/25:10:01:45.679 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7ffd3957c2b9 @0x7ffd4cf12a06 @0x7ffd4cf2deff @0x7ff6ca8b2c32 @0x7ff6ca8b35e8 @0x7ffd8e4b4743)
+2018-11-25 11:01:45, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:8
+2018-11-25 11:01:45, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:9
+2018-11-25 11:01:45, Info                  CBS    NonStart: Set pending store consistency check.
+2018-11-25 11:01:45, Info                  CBS    Session: 30704805_3752445784 initialized by client WindowsUpdateAgent, external staging directory: (null), external registry directory: (null
+2018-11-25 11:01:46, Info                  CBS    Appl: detect Parent, Package: Package_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.17134.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: EQ, Exist: present
+2018-11-25 11:01:46, Info                  CBS    Appl: detectParent (exact match): Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.17134.1, parent state: Absent
+2018-11-25 11:01:46, Info                  CBS    Appl: detect Parent, Package: Package_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.17134.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: EQ, Exist: present
+2018-11-25 11:01:46, Info                  CBS    Appl: detectParent (exact match): Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.17134.1, parent state: Installed
+2018-11-25 11:01:46, Info                  CBS    Appl: Evaluating package applicability for package Package_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, applicable state: Installed
+2018-11-25 11:01:46, Info                  CBS    Appl: detect Parent, Package: Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Parent: Microsoft-Windows-Client-Features-Package0014~31bf3856ad364e35~amd64~~10.0.17134.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: EQ, Exist: present
+2018-11-25 11:01:46, Info                  CBS    Appl: detectParent (exact match): Parent: Microsoft-Windows-Client-Features-Package0014~31bf3856ad364e35~amd64~~10.0.17134.1, parent state: Installed
+2018-11-25 11:01:46, Info                  CBS    Appl: detect Parent, Package: Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.17134.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: EQ, Exist: present
+2018-11-25 11:01:46, Info                  CBS    Appl: detectParent (exact match): Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.17134.1, parent state: Absent
+2018-11-25 11:01:46, Info                  CBS    Appl: detect Parent, Package: Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.17134.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: EQ, Exist: present
+2018-11-25 11:01:46, Info                  CBS    Appl: detectParent (exact match): Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.17134.1, parent state: Installed
+2018-11-25 11:01:46, Info                  CBS    Appl: Evaluating package applicability for package Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, applicable state: Installed
+2018-11-25 11:01:54, Info                  CSI    00000002 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0xd0a2cfc720
+2018-11-25 11:01:54, Info                  CSI    00000003 Poqexec successfully registered in [l:12 ml:13]'SetupExecute'
+2018-11-25 11:01:54, Info                  CSI    00000004 CSI Store 2492995302256 initialized
+2018-11-25 11:01:54, Info                  CSI    00000005@2018/11/25:10:01:54.600 CSI Transaction @0x244721983f0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000000 and client id 'TI5.30704805_3752445784:1/'
+
+2018-11-25 11:01:54, Info                  CSI    00000006@2018/11/25:10:01:54.610 CSI Transaction @0x244721983f0 destroyed
+2018-11-25 11:01:54, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-a..atibility-assistant_31bf3856ad364e35_0.0.0.0_none_b3bf174523aeaf96 (10.0.17134.285), elevation:2, lower version revision holder: 10.0.17134.1
+2018-11-25 11:01:54, Info                  CBS    Appl: SelfUpdate detect, component: amd64_microsoft-windows-a..atibility-assistant_31bf3856ad364e35_10.0.17134.285_none_1545971d795a2fe0, elevation: 2, applicable: 1
+2018-11-25 11:01:54, Info                  CBS    Appl: Package: Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, Update: 4465417-1_neutral, Applicable: Applicable, Disposition: Installed
+2018-11-25 11:01:54, Info                  CBS    External EvaluateApplicability, package: Package_1_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, package applicable State: Installed, highest update applicable state: Superseded, resulting applicable state:Superseded
+2018-11-25 11:01:54, Info                  CBS    External EvaluateApplicability, package: Package_for_KB4465417~31bf3856ad364e35~amd64~~10.0.1.0, package applicable State: Installed, highest update applicable state: Superseded, resulting applicable state:Superseded
+2018-11-25 11:03:57, Info                  CBS    Trusted Installer is shutting down because: SHUTDOWN_REASON_AUTOSTOP
+2018-11-25 11:03:57, Info                  CBS    TiWorker signaled for shutdown, going to exit.
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2018-11-25 11:03:57, Info                  CBS    Execution Engine Finalize
+2018-11-25 11:03:57, Info                  CBS    Execution Engine Finalize
+2018-11-25 11:03:57, Info                  CBS    Ending the TiWorker main loop.
+2018-11-25 11:03:57, Info                  CBS    Starting TiWorker finalization.
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: ManifestCacheFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2018-11-25 11:03:57, Info                  CBS    CBS Engine already deativated
+2018-11-25 11:03:57, Info                  CBS    CBS Engine already deativated
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: WcpUnload
+2018-11-25 11:03:57, Info                  CBS    Ending the TrustedInstaller main loop.
+2018-11-25 11:03:57, Info                  CBS    Starting TrustedInstaller finalization.
+2018-11-25 11:03:57, Info                  CBS    Ending TrustedInstaller finalization.
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: DrupUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: DpxUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: SrUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2018-11-25 11:03:57, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2018-11-25 11:03:57, Info                  CBS    Ending TiWorker finalization.
